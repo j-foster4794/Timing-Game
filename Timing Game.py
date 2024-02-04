@@ -29,7 +29,7 @@ class notes(pg.sprite.Sprite):
         pg.sprite.Sprite.__init__(self)
         list = [100,300,500,700]
         self.x = random.choice(list)
-        image =  pg.image.load("H:\James School Work\A Level\Comp Sci\Coding\Free time coding\Timing Game\pixilart-drawing.png")
+        image =  pg.image.load("H:\James School Work\A Level\Comp Sci\Coding\Python Coding\Timing Game\pixilart-drawing.png")
         self.surf = image
         self.rect = self.surf.get_rect(topleft = (self.x,0))
         self.speed = 5
